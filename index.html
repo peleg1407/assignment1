@@ -3,90 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <title>Top 5 Places I've Visited</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    background-color: #0077cc;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    position: relative;
-  }
-  header img {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 50px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns layout */
-    gap: 20px; /* Increase gap for spacing */
-    padding: 20px; /* Padding around the grid */
-    justify-items: center; /* Center items horizontally */
-  }
-  .grid-item {
-    text-align: center;
-    width: 80%; /* Reducing width to make images smaller */
-    margin: 10px; /* Margin around items for spacing */
-  }
-  .grid-item img {
-    width: 100%; /* Make images fill their container */
-    height: auto;
-    filter: sepia(20%);
-    border-radius: 8px;
-  }
-  .map-container {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .map-container img {
-    max-width: 100%; /* Ensure map scales to fit its container */
-    height: auto;
-  }
-</style>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
-  <img src="home.png" alt="Home">
+  <img src="photos/home.png" alt="Home">
   <h1>Top 5 Places I've Visited</h1>
 </header>
 <div class="grid-container">
   <div class="grid-item">
-    <a href="amsterdam.html"><img src="amsterdam.jpeg" alt="Amsterdam"></a>
+    <a href="htmlPages/amsterdam.html"><img src="photos/amsterdam.jpeg" alt="Amsterdam" class="big_photo"></a>
     <p>Amsterdam</p>
   </div>
   <div class="grid-item">
-    <a href="athens.html"><img src="athens.jpg" alt="Athens"></a>
+    <a href="htmlPages/athens.html"><img src="photos/athens.jpg" alt="Athens" class="big_photo"></a>
     <p>Athens</p>
   </div>
   <div class="grid-item">
-    <a href="budapest.html"><img src="budapest.jpeg" alt="Budapest"></a>
+    <a href="htmlPages/budapest.html"><img src="photos/budapest.jpeg" alt="Budapest" class="big_photo"></a>
     <p>Budapest</p>
   </div>
   <div class="grid-item">
-    <a href="istanbul.html"><img src="istanbul.jpeg" alt="Istanbul"></a>
+    <a href="htmlPages/istanbul.html"><img src="photos/istanbul.jpeg" alt="Istanbul" class="big_photo"></a>
     <p>Istanbul</p>
   </div>
   <div class="grid-item">
-    <a href="paris.html"><img src="paris.jpeg" alt="Paris"></a>
+    <a href="htmlPages/paris.html"><img src="photos/paris.jpeg" alt="Paris" class="big_photo"></a>
     <p>Paris</p>
    </div>
 </div>
 <div class="map-container">
-  <img src="mapped_map.jpg" alt="Mapped map of cities" usemap="#citymap">
+  <img src="photos/mapped_map.jpg" alt="Mapped map of cities" usemap="#citymap">
   <map name="citymap">
-    <area shape="rect" coords="0,0,200,1000" href="athens.html" alt="Athens">
-    <area shape="rect" coords="200,0,400,1000" href="paris.html" alt="Paris">
-    <area shape="rect" coords="400,0,600,1000" href="amsterdam.html" alt="Amsterdam">
-    <area shape="rect" coords="600,0,800,1000" href="budapest.html" alt="Budapest">
-    <area shape="rect" coords="800,0,1000,1000" href="istanbul.html" alt="Istanbul">
+    <area shape="rect" coords="0,0,200,1000" href="htmlPages/athens.html" alt="Athens">
+    <area shape="rect" coords="200,0,400,1000" href="htmlPages/paris.html" alt="Paris">
+    <area shape="rect" coords="400,0,600,1000" href="htmlPages/amsterdam.html" alt="Amsterdam">
+    <area shape="rect" coords="600,0,800,1000" href="htmlPages/budapest.html" alt="Budapest">
+    <area shape="rect" coords="800,0,1000,1000" href="htmlPages/istanbul.html" alt="Istanbul">
   </map>
 </div>
 </body>
