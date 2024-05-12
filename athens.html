@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Athens</title>
+<link rel="icon" href="home.png" type="image/png">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #0077cc; /* Blue color for the header */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start; /* Aligns children to start, keeping the icon on the left */
+  }
+  header img {
+    width: 50px;
+  }
+  header h1 {
+    flex-grow: 1; /* Allows the headline to take up remaining space */
+    text-align: center; /* Centers the headline text */
+    margin: 0 20px; /* Adds some spacing around the text */
+  }
+  .content {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  .content img {
+    width: 50%; /* Increased image size */
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  .text {
+    width: 45%; /* Adjusted text width to balance layout */
+    text-align: left;
+  }
+  .attractions {
+    padding: 20px;
+    font-size: 1.1em;
+  }
+</style>
+</head>
+<body>
+<header>
+  <a href="index.HTML"><img src="home.png" alt="Home"></a>
+  <h1>Welcome to Athens</h1>
+</header>
+<div class="content">
+  <img src="athens.jpg" alt="Athens">
+  <div class="text">
+    <p>Athens is a historic city known as the cradle of Western civilization and the birthplace of democracy. Home to ancient monuments and works of art, the most famous of all being the Parthenon, Athens encapsulates a blend of classical and modern features.</p>
+  </div>
+</div>
+<div class="attractions">
+  <h2>Top Attractions in Athens</h2>
+  <ul>
+    <li>Acropolis and the Parthenon - Iconic ancient archaeological wonders of the world.</li>
+    <li>National Archaeological Museum - Houses some of the most important artifacts from a variety of archaeological locations around Greece from prehistory to late antiquity.</li>
+    <li>Plaka - A historic neighborhood of Athens, clustered around the northern and eastern slopes of the Acropolis.</li>
+    <li>Ancient Agora - The heart of public life in ancient Athens, with many of the ruins remarkably preserved.</li>
+    <li>Syntagma Square - The central square of Athens, full of activity and historical significance.</li>
+  </ul>
+</div>
+</body>
+</html>

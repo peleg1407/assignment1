@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Budapest</title>
+<link rel="icon" href="home.png" type="image/png">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #0077cc; /* Blue color for the header */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start; /* Aligns children to start, keeping the icon on the left */
+  }
+  header img {
+    width: 50px;
+  }
+  header h1 {
+    flex-grow: 1; /* Allows the headline to take up remaining space */
+    text-align: center; /* Centers the headline text */
+    margin: 0 20px; /* Adds some spacing around the text */
+  }
+  .content {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  .content img {
+    width: 50%; /* Increased image size */
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  .text {
+    width: 45%; /* Adjusted text width to balance layout */
+    text-align: left;
+  }
+  .attractions {
+    padding: 20px;
+    font-size: 1.1em;
+  }
+</style>
+</head>
+<body>
+<header>
+  <a href="index.HTML"><img src="home.png" alt="Home"></a>
+  <h1>Welcome to Budapest</h1>
+</header>
+<div class="content">
+  <img src="budapest.jpeg" alt="Budapest">
+  <div class="text">
+    <p>Budapest, known as the 'Pearl of the Danube', is not only the capital of Hungary but also a city filled with vibrant culture, classical music, and historic architecture. It is split into two parts by the Danube River, Buda and Pest, each possessing a unique character and charm.</p>
+  </div>
+</div>
+<div class="attractions">
+  <h2>Top Attractions in Budapest</h2>
+  <ul>
+    <li>Buda Castle - A historical castle and palace complex of the Hungarian kings in Budapest, and a part of the Budapest World Heritage Site.</li>
+    <li>Parliament Building - One of Europe's oldest legislative buildings, a notable landmark of Hungary and a popular tourist destination of Budapest.</li>
+    <li>Chain Bridge - A picturesque historic stone bridge that crosses the Danube, connecting Buda and Pest.</li>
+    <li>Fisherman's Bastion - A terrace in neo-Gothic and neo-Romanesque style situated on the Buda bank of the Danube, on the Castle hill in Budapest, around Matthias Church.</li>
+    <li>Szechenyi Thermal Bath - One of the largest spa complexes in Europe and one of the first thermal baths built in Budapest.</li>
+  </ul>
+</div>
+</body>
+</html>
